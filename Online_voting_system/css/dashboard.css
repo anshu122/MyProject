@@ -1,0 +1,96 @@
+body{
+    background-color: #fee7ff;
+}
+#headerId{
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 56px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 7px;
+    margin-top: -7px;
+    display: inline-block;
+    width: 1364px;
+    margin-left: -7px;
+}
+.span_font{
+    padding: 9px 11px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: x-large;
+    cursor: pointer;
+}
+#btndiv{
+    margin-left: 385px;
+    margin-top: 12px;
+    height: 95px;
+}
+.btn{
+    font-family: cursive;
+    margin: 9px;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+/* css for logout */
+
+.logdiv{
+    display: inline-block;
+    position: absolute;
+    top: -21px;
+    right: 20px;
+  }
+
+/* after header part */
+#profile{
+    background-color: #b3f4fb;
+    width: 20%;
+    padding: 5px;
+    border-radius: 18px;
+    margin: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+#group{
+    background-color: #b3f4fb;
+    width: 65%;
+    padding: 11px;
+    border-radius: 18px;
+    margin: 4px;
+    float: right;
+    margin-right: 30px;
+}
+#group_image{
+    float: right;
+}
+.gvotebtn {
+    font-family: none;
+    margin: -1px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: #9947f3;
+    color: white;
+    width: 85px;
+}
+.votedBtn{
+    font-family: none;
+    margin: -1px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: #47f36c;
+    color: white;
+    width: 85px;
+}

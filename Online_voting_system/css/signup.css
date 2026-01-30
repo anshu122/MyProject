@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+#head_div{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #8bdcf5;
+}
+#head_txt{
+  text-align: center;
+  font-size: 33px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e720bc;
+  margin-top: 5px;
+}
+#pid{
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+  margin: 3px;
+}
+
+.mycontainer{
+    width: 537px;
+    border: 1px solid #00c3ff;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: #e3ecef;
+    display: block;
+    margin: auto;
+}
+.head4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 34px;
+}
+.form_input{
+  display: flex;
+}
+.input-group{
+  margin-right: -1px;
+  display: flex;
+}
+.span_font{
+  padding: 10px 11px;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input_field{
+  width: 100%;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+.mybtn{
+  cursor: pointer;
+  width: 100%;
+  background-color: #00ff5a;
+  color: black;
+  border:2px solid black;
+  font-weight: 400;
+  padding: 5px;
+  font-size: 20px;
+  line-height: 28px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.bottom_cls{
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+}
+.span_div{
+width: 100%;
+margin-bottom: 14px;
+}
+.error_span{
+font-weight: bold;
+font-style: italic;
+color: red;
+margin-left: 30px;
+font-size: 21px;
+}
